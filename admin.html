@@ -7,17 +7,17 @@
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      background: #0f1830;
-      color: #c8d8f0;
+      background: #0a0610;
+      color: #ffd1e8;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
       padding: 24px;
     }
     .container { max-width: 1200px; margin: 0 auto; }
-    h1 { color: #5b9dff; margin-bottom: 24px; font-size: 28px; }
+    h1 { color: #ff2d78; margin-bottom: 24px; font-size: 28px; }
 
     .login-box {
       background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(91,157,255,0.15);
+      border: 1px solid rgba(255,45,120,0.15);
       border-radius: 10px;
       padding: 40px;
       max-width: 400px;
@@ -28,7 +28,7 @@
       padding: 12px;
       margin-bottom: 16px;
       background: rgba(0,0,0,0.3);
-      border: 1px solid rgba(91,157,255,0.2);
+      border: 1px solid rgba(255,45,120,0.2);
       border-radius: 6px;
       color: #fff;
       font-size: 14px;
@@ -36,7 +36,7 @@
     .login-box button {
       width: 100%;
       padding: 12px;
-      background: linear-gradient(135deg, #5b9dff 0%, #3b7de0 100%);
+      background: linear-gradient(135deg, #ff2d78 0%, #d6225f 100%);
       border: none;
       border-radius: 6px;
       color: #fff;
@@ -47,11 +47,11 @@
 
     .feedback-card {
       background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(91,157,255,0.15);
+      border: 1px solid rgba(255,45,120,0.15);
       border-radius: 10px;
       padding: 20px;
     }
-    .feedback-card h3 { color: #5b9dff; margin-bottom: 12px; }
+    .feedback-card h3 { color: #ff2d78; margin-bottom: 12px; }
     .feedback-card p { margin-bottom: 8px; font-size: 13px; color: #9da8ba; }
     .feedback-card .feedback-text {
       background: rgba(0,0,0,0.2);
@@ -94,19 +94,19 @@
     }
     .toolbar button {
       padding: 10px 20px;
-      background: rgba(91,157,255,0.1);
-      border: 1px solid rgba(91,157,255,0.3);
-      color: #5b9dff;
+      background: rgba(255,45,120,0.1);
+      border: 1px solid rgba(255,45,120,0.3);
+      color: #ff2d78;
       border-radius: 6px;
       cursor: pointer;
       font-size: 13px;
       font-weight: 600;
     }
-    .toolbar button:hover { background: rgba(91,157,255,0.2); }
+    .toolbar button:hover { background: rgba(255,45,120,0.2); }
     .toolbar input {
       padding: 10px 14px;
       background: rgba(0,0,0,0.3);
-      border: 1px solid rgba(91,157,255,0.2);
+      border: 1px solid rgba(255,45,120,0.2);
       border-radius: 6px;
       color: #fff;
       flex: 1;
@@ -121,7 +121,7 @@
 <div class="container">
   <div id="login-view" style="display:none;">
     <div class="login-box">
-      <h2 style="color:#5b9dff; margin-bottom:24px">Admin Panel</h2>
+      <h2 style="color:#ff2d78; margin-bottom:24px">Admin Panel</h2>
       <input type="password" id="admin-password" placeholder="Contraseña admin" />
       <button onclick="doLogin()">Entrar</button>
       <p style="text-align:center; margin-top:12px; font-size:12px; color:#9da8ba">
